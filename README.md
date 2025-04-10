@@ -53,7 +53,7 @@ facial-beauty-scoring/
 
 1. Clone the repository
 ```bash
-[git clone https://github.com/yourusername/facial-beauty-scoring.git](https://github.com/XiChen211/facial-beauty-scoring.git)
+git clone https://github.com/yourusername/facial-beauty-scoring.git
 cd facial-beauty-scoring
 ```
 

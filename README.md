@@ -1,5 +1,5 @@
 # facial-beauty-scoring APP
-YOLOv8 Face Detection，CNNRegression Evaluator
+use YOLOv8 Face Detection，CNNRegression Evaluator
 
 # Facial Beauty Scoring System
 

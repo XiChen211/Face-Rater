@@ -87,7 +87,7 @@ python main.py
 2. Use the application
    - Click "Upload Image" to select an image from your computer
    - Or drag and drop an image file directly onto the application
-   - The application will process the image, detect faces, and display a beauty score
+   - The application will process the image, detect faces, and display a beauty score(0-5)
    - The detected face will be highlighted with a green bounding box
 
 ![Detection Result](./image/result.png)

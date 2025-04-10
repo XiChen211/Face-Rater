@@ -44,7 +44,7 @@ git clone https://github.com/yourusername/facial-beauty-scoring.git
 cd facial-beauty-scoring
 ```
 
-2. Create and activate a virtual environment (optional but recommended)
+2. Create and activate a virtual environment
 ```bash
 conda create -n facial-beauty-scoring python=3.12
 conda activate facial-beauty-scoring

@@ -5,7 +5,7 @@ YOLOv8 Face Detection，CNNRegression Evaluator
 
 A desktop application that detects human faces in images and provides a beauty score using deep learning models.
 
-![Application Screenshot](./images/app_screenshot.png)
+![Application Screenshot](./image/system.png)
 
 ## Project Overview
 
@@ -31,20 +31,7 @@ This application combines computer vision and deep learning to:
 - **Face Detection**: Automatically identifies and highlights faces in images
 - **Beauty Scoring**: Returns a numerical attractiveness score based on facial features
 
-## Project Structure
 
-```
-facial-beauty-scoring/
-├── main.py                 # Application entry point
-├── config.py               # Configuration and model paths
-├── models.py               # Neural network model definitions
-├── processing.py           # Image processing and model inference
-├── ui_main_window.py       # UI implementation
-├── utils.py                # Utility functions
-├── requirements.txt        # Dependencies
-├── beauty_cnn_model.pth    # Pre-trained beauty scoring model (needs to be downloaded)
-└── images/                 # Screenshots and example images
-```
 
 ## Installation
 
@@ -74,6 +61,21 @@ pip install -r requirements.txt
      - Link: [https://pan.baidu.com/s/1Q1Qd97oV4A6-2yrm1m0zTA](https://pan.baidu.com/s/1Q1Qd97oV4A6-2yrm1m0zTA)
      - Extraction code: `2112`
    - Place the `beauty_cnn_model.pth` file in the project root directory
+   - 
+## Project Structure
+
+```
+facial-beauty-scoring/
+├── main.py                 # Application entry point
+├── config.py               # Configuration and model paths
+├── models.py               # Neural network model definitions
+├── processing.py           # Image processing and model inference
+├── ui_main_window.py       # UI implementation
+├── utils.py                # Utility functions
+├── requirements.txt        # Dependencies
+├── beauty_cnn_model.pth    # Pre-trained beauty scoring model (needs to be downloaded)
+└── images/                 # Screenshots and example images
+```
 
 ## Usage
 
@@ -88,7 +90,7 @@ python main.py
    - The application will process the image, detect faces, and display a beauty score
    - The detected face will be highlighted with a green bounding box
 
-![Detection Result](./images/detection_result.png)
+![Detection Result](./image/result.png)
 
 
 ## Development Notes
@@ -104,9 +106,6 @@ python main.py
 - Results are dependent on the quality of the input image
 - The beauty score is subjective and based on the training data of the model
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgements
 

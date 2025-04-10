@@ -61,7 +61,7 @@ pip install -r requirements.txt
      - Link: [https://pan.baidu.com/s/1Q1Qd97oV4A6-2yrm1m0zTA](https://pan.baidu.com/s/1Q1Qd97oV4A6-2yrm1m0zTA)
      - Extraction code: `2112`
    - Place the `beauty_cnn_model.pth` file in the project root directory
-   - 
+
 ## Project Structure
 
 ```
